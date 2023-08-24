@@ -1,8 +1,8 @@
 <robot name="UF_ROBOT" version="1.0.0">
-    <group name="group1">
-        <chain base_link="link_base" tip_link="link_eef"/>
+    <group name="manipulator">
+        <chain base_link="base_link" tip_link="tool0"/>
     </group>
-    <group_state name="home" group="group1">
+    <group_state name="home" group="manipulator">
         <joint name="joint7" value="0"/>
         <joint name="joint2" value="0"/>
         <joint name="joint1" value="-0.043189999999999999"/>
@@ -11,15 +11,15 @@
         <joint name="joint5" value="0"/>
         <joint name="joint6" value="0"/>
     </group_state>
-    <group_tcps group="group1">
+    <group_tcps group="manipulator">
         <tcp name="mytcp1" xyz="0 0 0" wxyz="1 0 0 0"/>
     </group_tcps>
-    <disable_collisions link1="link1" link2="link_base" reason="Never"/>
-    <disable_collisions link1="link2" link2="link_base" reason="Never"/>
+    <disable_collisions link1="link1" link2="base_link" reason="Never"/>
+    <disable_collisions link1="link2" link2="base_link" reason="Never"/>
     <disable_collisions link1="link3" link2="link5" reason="Never"/>
     <disable_collisions link1="link3" link2="link6" reason="Never"/>
     <disable_collisions link1="link3" link2="link7" reason="Never"/>
-    <disable_collisions link1="link3" link2="link_base" reason="Never"/>
+    <disable_collisions link1="link3" link2="base_link" reason="Never"/>
     <disable_collisions link1="link1" link2="link3" reason="Never"/>
     <disable_collisions link1="link6" link2="link7" reason="Never"/>
     <disable_collisions link1="link4" link2="link6" reason="Never"/>
