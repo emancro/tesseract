@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<robot name="environment" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:macro name="workcell" params="parent_link *location">
+
+  <material name="light_gray">
+    <color rgba="0.7 0.7 0.7 1"/>
+  </material>
+
+
+  <link name="robot_base">
+    <visual>
+      <geometry>
+        <mesh filename="/home/febert/Desktop/arm_assembly_uniguide.STL"/>
+      </geometry>
+      <material name="light_gray"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="/home/febert/Desktop/arm_assembly_uniguide.STL"/>
+      </geometry>
+      <material name="light_gray"/>
+    </collision>
+
+    <visual>
+      <origin xyz="0.55 0.0 0.43" rpy="0 0 0" />
+     <geometry>
+       <sphere radius="0.15" />
+     </geometry>
+      <material name="Cyan">
+        <color rgba="0 1.0 1.0 1.0"/>
+     </material>
+   </visual>
+
+   <collision>
+     <origin xyz="0.55 0.0 0.43" rpy="0 0 0" />
+     <geometry>
+       <sphere radius="0.15" />
+     </geometry>
+      <material name="Cyan">
+        <color rgba="0 1.0 1.0 1.0"/>
+     </material>
+   </collision>
+
+
+
+
+  </link>
+
+  <joint name="robot_base_joint" type ="fixed">
+    <xacro:insert_block name="location" />
+    <parent link="${parent_link}"/>
+    <child link="robot_base"/>
+  </joint>
+</xacro:macro>
+
+</robot>
