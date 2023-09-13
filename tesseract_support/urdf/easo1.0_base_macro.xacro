@@ -15,14 +15,58 @@
       </geometry>
       <material name="light_gray"/>
     </visual>
-    <collision>
-      <geometry>
-        <mesh filename="/home/febert/Desktop/arm_assembly_uniguide.STL"/>
-      </geometry>
-      <material name="light_gray"/>
-    </collision>
+
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base004.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base046.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base045.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base021.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base057.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base001.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base039.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base014.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base031.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base061.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base038.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base030.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base017.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base024.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base035.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base058.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base027.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base053.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base062.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base037.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base036.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base029.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base042.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base015.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base060.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base032.stl" /></geometry></collision>
+    <collision><geometry><mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base049.stl" /></geometry></collision>
+
 
     <visual>
+      <origin xyz="0.55 0.5 0" rpy="0 0 0" />
+      <geometry>
+        <box size="0.1 2 2" />
+      </geometry>
+      <material name="Cyan">
+        <color rgba="0 1.0 1.0 1.0"/>
+      </material>
+    </visual>
+
+    <collision>
+      <origin xyz="0.55 0.5 0" rpy="0 0 0" />
+      <geometry>
+        <box size="0.1 2 2" />
+      </geometry>
+      <material name="Cyan">
+        <color rgba="0 1.0 1.0 1.0"/>
+      </material>
+    </collision>
+
+
+    <!-- <visual>
       <origin xyz="0.55 0.0 0.43" rpy="0 0 0" />
      <geometry>
        <sphere radius="0.15" />
@@ -40,7 +84,7 @@
       <material name="Cyan">
         <color rgba="0 1.0 1.0 1.0"/>
      </material>
-   </collision>
+   </collision> -->
 
 
 

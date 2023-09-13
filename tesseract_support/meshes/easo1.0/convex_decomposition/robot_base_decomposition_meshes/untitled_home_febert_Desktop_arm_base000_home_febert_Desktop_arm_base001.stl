@@ -1,0 +1,142 @@
+solid /home/febert/Desktop/arm_base001
+facet normal 0.000000 1.000000 0.000000
+outer loop
+vertex 0.039629 0.436072 -0.090296
+vertex -0.324914 0.436072 -0.048866
+vertex 0.039629 0.436072 -0.048866
+endloop
+endfacet
+facet normal 0.999445 -0.033321 0.000000
+outer loop
+vertex 0.047225 0.411672 -0.043377
+vertex 0.039629 0.183845 -0.070296
+vertex 0.039629 0.183845 -0.090296
+endloop
+endfacet
+facet normal 0.000000 0.219477 0.975618
+outer loop
+vertex 0.047225 0.411672 -0.043377
+vertex 0.039629 0.436072 -0.048866
+vertex -0.324914 0.436072 -0.048866
+endloop
+endfacet
+facet normal 0.954806 0.297229 0.000000
+outer loop
+vertex 0.047225 0.411672 -0.043377
+vertex 0.039629 0.436072 -0.090296
+vertex 0.039629 0.436072 -0.048866
+endloop
+endfacet
+facet normal 0.987148 0.000000 -0.159808
+outer loop
+vertex 0.047225 0.411672 -0.043377
+vertex 0.039629 0.183845 -0.090296
+vertex 0.039629 0.436072 -0.090296
+endloop
+endfacet
+facet normal 0.040751 -0.999169 0.000000
+outer loop
+vertex -0.258756 0.171675 -0.065406
+vertex 0.039629 0.183845 -0.090296
+vertex 0.039629 0.183845 -0.070296
+endloop
+endfacet
+facet normal -0.004914 -0.085187 0.996353
+outer loop
+vertex -0.258756 0.171675 -0.065406
+vertex 0.047225 0.411672 -0.043377
+vertex -0.326366 0.175575 -0.065406
+endloop
+endfacet
+facet normal 0.021084 -0.118006 0.992789
+outer loop
+vertex -0.258756 0.171675 -0.065406
+vertex 0.039629 0.183845 -0.070296
+vertex 0.047225 0.411672 -0.043377
+endloop
+endfacet
+facet normal 0.000000 1.000000 0.000000
+outer loop
+vertex -0.324914 0.436072 -0.090296
+vertex -0.324914 0.436072 -0.048866
+vertex 0.039629 0.436072 -0.090296
+endloop
+endfacet
+facet normal 0.000000 -0.000000 -1.000000
+outer loop
+vertex -0.324914 0.436072 -0.090296
+vertex 0.039629 0.436072 -0.090296
+vertex 0.039629 0.183845 -0.090296
+endloop
+endfacet
+facet normal -0.014681 0.001031 0.999892
+outer loop
+vertex -0.326366 0.415398 -0.048866
+vertex 0.047225 0.411672 -0.043377
+vertex -0.324914 0.436072 -0.048866
+endloop
+endfacet
+facet normal -0.015342 -0.068794 0.997513
+outer loop
+vertex -0.326366 0.415398 -0.048866
+vertex -0.326366 0.175575 -0.065406
+vertex 0.047225 0.411672 -0.043377
+endloop
+endfacet
+facet normal -0.999424 0.002335 -0.033859
+outer loop
+vertex -0.326366 0.415398 -0.048866
+vertex -0.324914 0.436072 -0.090296
+vertex -0.326366 0.175575 -0.065406
+endloop
+endfacet
+facet normal -0.997543 0.070055 0.000000
+outer loop
+vertex -0.326366 0.415398 -0.048866
+vertex -0.324914 0.436072 -0.048866
+vertex -0.324914 0.436072 -0.090296
+endloop
+endfacet
+facet normal -0.057585 -0.998335 -0.003358
+outer loop
+vertex -0.324914 0.175575 -0.090296
+vertex -0.258756 0.171675 -0.065406
+vertex -0.326366 0.175575 -0.065406
+endloop
+endfacet
+facet normal 0.000000 -0.000000 -1.000000
+outer loop
+vertex -0.324914 0.175575 -0.090296
+vertex -0.324914 0.436072 -0.090296
+vertex 0.039629 0.183845 -0.090296
+endloop
+endfacet
+facet normal -0.998303 0.000000 -0.058232
+outer loop
+vertex -0.324914 0.175575 -0.090296
+vertex -0.326366 0.175575 -0.065406
+vertex -0.324914 0.436072 -0.090296
+endloop
+endfacet
+facet normal 0.000000 0.000000 -1.000000
+outer loop
+vertex -0.258756 0.175575 -0.090296
+vertex -0.324914 0.175575 -0.090296
+vertex 0.039629 0.183845 -0.090296
+endloop
+endfacet
+facet normal 0.027371 -0.987577 -0.154735
+outer loop
+vertex -0.258756 0.175575 -0.090296
+vertex 0.039629 0.183845 -0.090296
+vertex -0.258756 0.171675 -0.065406
+endloop
+endfacet
+facet normal 0.000000 -0.987947 -0.154792
+outer loop
+vertex -0.258756 0.175575 -0.090296
+vertex -0.258756 0.171675 -0.065406
+vertex -0.324914 0.175575 -0.090296
+endloop
+endfacet
+endsolid /home/febert/Desktop/arm_base001
