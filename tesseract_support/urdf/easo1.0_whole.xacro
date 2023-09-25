@@ -11,7 +11,7 @@
     <!-- Include workcell (creates joint from world to robot_base)-->
     <xacro:include filename="$(find tesseract_support)/urdf/easo1.0_base_macro.xacro"/>
     <xacro:workcell parent_link="world" >
-        <origin xyz="0.0 0.0 0.77153" rpy="0 0 0"/>
+        <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
     </xacro:workcell >
 
     <joint name="robot_base_to_base_link" type="fixed">

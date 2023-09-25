@@ -221,6 +221,46 @@
         </geometry>
         <origin rpy="0 0 0" xyz="0 0 0"/>
       </collision>
+
+      <visual>
+        <geometry>
+          <mesh filename="package://tesseract_support/meshes/easo1.0/visual/endeff_finger2_extd.stl"/>
+        </geometry>
+        <origin rpy="1.570796 0 0" xyz="0 0 0"/>
+        <material name="Silver"/>
+      </visual>
+
+      <visual>
+        <origin xyz="-0.0525 0.029 0.1445 " rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.01" length="0.289"/>
+        </geometry>
+        <material name="Silver"/>
+      </visual>
+      <collision>
+        <origin xyz="-0.0525 0.029 0.1445 " rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.02" length="0.289"/>
+        </geometry>
+        <material name="Silver"/>
+      </collision>
+
+
+      <visual>
+        <origin xyz="0.0 0 0.14" rpy="0 0 0" />
+        <geometry>
+          <box size="0.14 0.16 0.1" />
+        </geometry>
+        <material name="Silver"/>
+      </visual>
+      <collision>
+        <origin xyz="0.0 0 0.14" rpy="0 0 0" />
+        <geometry>
+          <box size="0.14 0.16 0.1" />
+        </geometry>
+        <material name="Silver"/>
+      </collision>
+
     </link>
     <joint name="joint7" type="revolute">
       <origin rpy="-1.5708 0 0" xyz="0.076 0.097 0"/>
@@ -330,9 +370,10 @@
     <gazebo reference="${prefix}link7">
       <selfCollide>true</selfCollide>
     </gazebo>
-    <link name="tool0"/>
+    <link name="tool0">
+    </link>
     <joint name="joint_eef" type="fixed">
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="0 0 0" xyz="-0.0525 0.029 0.289"/>
       <parent link="${prefix}link7"/>
       <child link="tool0"/>
     </joint>

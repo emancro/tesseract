@@ -227,6 +227,41 @@
       </geometry>
       <origin rpy="0 0 0" xyz="0 0 0"/>
     </collision>
+    <visual>
+      <geometry>
+        <mesh filename="package://tesseract_support/meshes/easo1.0/visual/endeff_finger2_extd.stl"/>
+      </geometry>
+      <origin rpy="1.570796 0 0" xyz="0 0 0"/>
+      <material name="Silver"/>
+    </visual>
+    <visual>
+      <origin rpy="0 0 0" xyz="-0.0525 0.029 0.1445 "/>
+      <geometry>
+        <cylinder length="0.289" radius="0.01"/>
+      </geometry>
+      <material name="Silver"/>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="-0.0525 0.029 0.1445 "/>
+      <geometry>
+        <cylinder length="0.289" radius="0.02"/>
+      </geometry>
+      <material name="Silver"/>
+    </collision>
+    <visual>
+      <origin rpy="0 0 0" xyz="0.0 0 0.14"/>
+      <geometry>
+        <box size="0.14 0.16 0.1"/>
+      </geometry>
+      <material name="Silver"/>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0.0 0 0.14"/>
+      <geometry>
+        <box size="0.14 0.16 0.1"/>
+      </geometry>
+      <material name="Silver"/>
+    </collision>
   </link>
   <joint name="joint7" type="revolute">
     <origin rpy="-1.5708 0 0" xyz="0.076 0.097 0"/>
@@ -336,9 +371,10 @@
   <gazebo reference="arm_link7">
     <selfCollide>true</selfCollide>
   </gazebo>
-  <link name="tool0"/>
+  <link name="tool0">
+    </link>
   <joint name="joint_eef" type="fixed">
-    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <origin rpy="0 0 0" xyz="-0.0525 0.029 0.289"/>
     <parent link="arm_link7"/>
     <child link="tool0"/>
   </joint>
@@ -361,12 +397,12 @@
     <color rgba="0.7 0.7 0.7 1"/>
   </material>
   <link name="robot_base">
-    <visual>
+    <!-- <visual>
       <geometry>
         <mesh filename="/home/febert/Desktop/arm_assembly_uniguide.STL"/>
       </geometry>
       <material name="light_gray"/>
-    </visual>
+    </visual> -->
     <collision>
       <geometry>
         <mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base004.stl"/>
@@ -503,7 +539,7 @@
       </geometry>
     </collision>
     <visual>
-      <origin rpy="0 0 0" xyz="0.55 0.5 0"/>
+      <origin rpy="0 0 0" xyz="0.9 0.5 0"/>
       <geometry>
         <box size="0.1 2 2"/>
       </geometry>
@@ -512,7 +548,7 @@
       </material>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="0.55 0.5 0"/>
+      <origin rpy="0 0 0" xyz="0.9 0.5 0"/>
       <geometry>
         <box size="0.1 2 2"/>
       </geometry>
@@ -541,7 +577,7 @@
    </collision> -->
   </link>
   <joint name="robot_base_joint" type="fixed">
-    <origin rpy="0 0 0" xyz="0.0 0.0 0.77153"/>
+    <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
     <parent link="world"/>
     <child link="robot_base"/>
   </joint>
