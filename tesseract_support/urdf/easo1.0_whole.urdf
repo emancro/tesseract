@@ -251,14 +251,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0.0 0 0.14"/>
       <geometry>
-        <box size="0.14 0.16 0.1"/>
+        <box size="0.2 0.18 0.1"/>
       </geometry>
       <material name="Silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0.0 0 0.14"/>
       <geometry>
-        <box size="0.14 0.16 0.1"/>
+        <box size="0.2 0.18 0.1"/>
       </geometry>
       <material name="Silver"/>
     </collision>
@@ -397,12 +397,12 @@
     <color rgba="0.7 0.7 0.7 1"/>
   </material>
   <link name="robot_base">
-    <!-- <visual>
+    <visual>
       <geometry>
         <mesh filename="/home/febert/Desktop/arm_assembly_uniguide.STL"/>
       </geometry>
       <material name="light_gray"/>
-    </visual> -->
+    </visual>
     <collision>
       <geometry>
         <mesh filename="package://tesseract_support/meshes/easo1.0/convex_decomposition/robot_base_decomposition_meshes/untitled_home_febert_Desktop_arm_base000_home_febert_Desktop_arm_base004.stl"/>
@@ -539,7 +539,7 @@
       </geometry>
     </collision>
     <visual>
-      <origin rpy="0 0 0" xyz="0.9 0.5 0"/>
+      <origin rpy="0 0 0" xyz="0.6 0.5 0"/>
       <geometry>
         <box size="0.1 2 2"/>
       </geometry>
@@ -548,7 +548,7 @@
       </material>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="0.9 0.5 0"/>
+      <origin rpy="0 0 0" xyz="0.6 0.5 0"/>
       <geometry>
         <box size="0.1 2 2"/>
       </geometry>
