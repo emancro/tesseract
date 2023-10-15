@@ -1,0 +1,1 @@
+rosrun xacro xacro easo1.0_whole.xacro  > easo1.0_whole.urdf
